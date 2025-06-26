@@ -1,7 +1,7 @@
 from aiogram import Bot
 from aiogram.types import ChatMemberAdministrator, ChatMemberOwner
 
-CHANNEL_ID = -1002406925254  # ID твоего канала
+CHANNEL_ID = -xxxxxxx  # ID твоего канала
 
 async def is_admin(bot: Bot, user_id: int) -> bool:
     """Проверяет, является ли пользователь админом канала."""
